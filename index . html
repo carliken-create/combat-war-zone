@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Combat Arena</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #090909;
+    color: white;
+}
+
+header {
+    background: #151515;
+    padding: 22px 16px;
+    border-bottom: 2px solid #e50914;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.logo span {
+    color: #e50914;
+}
+
+header p {
+    color: #aaa;
+    font-size: 12px;
+    margin-top: 6px;
+}
+
+.container {
+    padding: 18px;
+}
+
+.welcome {
+    background: linear-gradient(120deg,#350000,#151515);
+    padding: 25px 18px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+}
+
+.welcome h2 {
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+
+.welcome p {
+    color: #ccc;
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+.section-title {
+    margin: 22px 0 14px;
+    font-size: 19px;
+}
+
+.games {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+
+.game {
+    background: #191919;
+    border: 1px solid #333;
+    border-radius: 10px;
+    padding: 17px 10px;
+    text-align: center;
+}
+
+.game .icon {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.game h3 {
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+button {
+    background: #e50914;
+    border: none;
+    color: white;
+    padding: 10px 14px;
+    border-radius: 6px;
+    font-weight: bold;
+    width: 100%;
+}
+
+.menu {
+    background: #191919;
+    padding: 18px;
+    border-radius: 10px;
+    margin-top: 12px;
+}
+
+.menu p {
+    color: #bbb;
+    font-size: 13px;
+    margin-top: 7px;
+}
+
+footer {
+    text-align: center;
+    color: #777;
+    padding: 25px 10px;
+    font-size: 12px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">COMBAT <span>ARENA</span></div>
+    <p>THE ULTIMATE GAMING DESTINATION</p>
+</header>
+
+<div class="container">
+
+    <div class="welcome">
+        <h2>WELCOME, WARRIOR!</h2>
+        <p>Your battlefield awaits. Find your team, enter tournaments and become a legend.</p>
+    </div>
+
+    <h2 class="section-title">🎮 GAME CENTRE</h2>
+
+    <div class="games">
+
+        <div class="game">
+            <div class="icon">🔫</div>
+            <h3>CALL OF DUTY</h3>
+            <button onclick="comingSoon()">EXPLORE</button>
+        </div>
+
+        <div class="game">
+            <div class="icon">💀</div>
+            <h3>BLOOD STRIKE</h3>
+            <button onclick="comingSoon()">EXPLORE</button>
+        </div>
+
+        <div class="game">
+            <div class="icon">🔥</div>
+            <h3>FREE FIRE</h3>
+            <button onclick="comingSoon()">EXPLORE</button>
+        </div>
+
+        <div class="game">
+            <div class="icon">🪖</div>
+            <h3>PUBG MOBILE</h3>
+            <button onclick="comingSoon()">EXPLORE</button>
+        </div>
+
+    </div>
+
+    <h2 class="section-title">🏆 COMPETITION</h2>
+
+    <div class="menu">
+        <h3>TOURNAMENTS</h3>
+        <p>Enter competitions and fight for victory.</p>
+    </div>
+
+    <div class="menu">
+        <h3>LEADERBOARD</h3>
+        <p>Discover the best players in Combat Arena.</p>
+    </div>
+
+    <div class="menu">
+        <h3>MY PROFILE</h3>
+        <p>Your gaming identity starts here.</p>
+    </div>
+
+</div>
+
+<footer>
+    COMBAT ARENA © 2026<br>
+    BUILT FOR THE WARRIORS.
+</footer>
+
+<script>
+function comingSoon() {
+    alert("Welcome to Combat Arena! This feature is coming soon.");
+}
+</script>
+
+</body>
+</html>
